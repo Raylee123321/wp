@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>展開/縮小示例</title>
+<style>
+  .expandable-content {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<button onclick="toggleContent()">展開/縮小</button>
+<div id="content" class="expandable-content">
+  <p>這是可展開/縮小的內容。</p>
+</div>
+
+<script>
+function toggleContent() {
+  var content = document.getElementById("content");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
