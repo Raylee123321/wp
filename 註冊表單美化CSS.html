@@ -56,17 +56,58 @@
 <h1>註冊申請</h1>
 
 <form>
-    <table>
-        <tr>
-            <td>姓名</td>
-            <td><input type="text" id="name" name="name"></td>
-        </tr>
-        <tr>
-            <td>帳號</td>
-            <td><input type="text" id="account" name="account"></td>
-        </tr>
-        <!-- Add more fields as needed -->
-    </table>
+    <table> 
+<h1>註冊申請</h1>
+　<tr><td align="center" valign="center">姓名
+	<input type="name" id="name" name="姓名" ><br>
+帳號 <input type="account number" id="account number" name="account number"><br>
+密碼 <input type="password" id="password" name="password" ><br>
+性別 <label for="male">
+    <input type="radio" id="male" name="male" value="male">男
+</label>
+<label for="female">
+    <input type="radio" id="female" name="female" value="female">女
+</label><br>
+email
+	<input type="email"id="email" name="email"><br>
+
+生日
+	<input type="date"id="date" name="date"><br>
+
+喜歡的顏色
+	<input type="color"id="color" name="coloe"><br>
+
+血型
+	<label for="option1">
+    <input type="radio" id="A" name="group1" value="option1">A
+</label>
+
+<label for="option2">
+    <input type="radio" id="B" name="group1" value="option2"> B
+</label>
+
+<label for="option3">
+    <input type="radio" id="O" name="group1" value="option3"> O
+</label>
+<label for="option3">
+    <input type="radio" id="AB" name="group1" value="option4"> AB
+</label><br>
+
+電話
+	<input type="tel"id="phonenumber" name="phonenumber"placeholder=09-12345678><br>
+訂閱<label for="option5">
+    <input type="radio" id="sub" name="group3" value="option5">是
+</label>
+<label for="option6">
+    <input type="radio" id="unsub" name="group3" value="option6">否
+</label><br>
+附件<label for="option7">
+    <input type="file" id="file" name="group4" value="option7">
+</label>
+<br>自我介紹:<label for="story"></label>
+<br><textarea id="story" name="story" rows="5" cols="33">
+</textarea></td></tr>
+</table>
 </form>
 
 </body>
