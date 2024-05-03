@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>註冊申請</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        td {
+            padding: 10px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="color"],
+        input[type="file"],
+        textarea {
+            width: calc(100% - 10px);
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h1>註冊申請</h1>
+
+<form>
+    <table> 
+　<tr><td align="center" valign="center">姓名
+	<input type="name" id="name" name="姓名" ><br>
+帳號 <input type="account number" id="account number" name="account number"><br>
+密碼 <input type="password" id="password" name="password" ><br>
+性別 <label for="male">
+    <input type="radio" id="male" name="male" value="male">男
+</label>
+<label for="female">
+    <input type="radio" id="female" name="female" value="female">女
+</label><br>
+email
+	<input type="email"id="email" name="email"><br>
+
+生日
+	<input type="date"id="date" name="date"><br>
+
+喜歡的顏色
+	<input type="color"id="color" name="coloe"><br>
+
+血型
+	<label for="option1">
+    <input type="radio" id="A" name="group1" value="option1">A
+</label>
+
+<label for="option2">
+    <input type="radio" id="B" name="group1" value="option2"> B
+</label>
+
+<label for="option3">
+    <input type="radio" id="O" name="group1" value="option3"> O
+</label>
+<label for="option3">
+    <input type="radio" id="AB" name="group1" value="option4"> AB
+</label><br>
+
+電話
+	<input type="tel"id="phonenumber" name="phonenumber"placeholder=09-12345678><br>
+訂閱<label for="option5">
+    <input type="radio" id="sub" name="group3" value="option5">是
+</label>
+<label for="option6">
+    <input type="radio" id="unsub" name="group3" value="option6">否
+</label><br>
+附件<label for="option7">
+    <input type="file" id="file" name="group4" value="option7">
+</label>
+<br>自我介紹:<label for="story"></label>
+<br><textarea id="story" name="story" rows="5" cols="33">
+</textarea></td></tr>
+</table>
+</form>
+
+</body>
+</html>
