@@ -3,30 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>展開/縮小示例</title>
+<title>展開/縮小色塊</title>
 <style>
-  .expandable-content {
-    display: none;
+  #colorBlock {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: height 0.3s ease;
+  }
+
+  #colorBlock.expanded {
+    height: 200px;
   }
 </style>
 </head>
 <body>
 
-<button onclick="toggleContent()">展開/縮小</button>
-<div id="content" class="expandable-content">
-  <p>這是可展開/縮小的內容。</p>
-</div>
+<div id="colorBlock" onclick="toggleColorBlock()"></div>
 
 <script>
-function toggleContent() {
-  var content = document.getElementById("content");
-  if (content.style.display === "none") {
-    content.style.display = "block";
-  } else {
-    content.style.display = "none";
-  }
+function toggleColorBlock() {
+  var colorBlock = document.getElementById("colorBlock");
+  colorBlock.classList.toggle("expanded");
 }
 </script>
 
 </body>
 </html>
+
