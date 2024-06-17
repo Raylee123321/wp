@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>伸缩侧边栏</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar" id="mySidebar">
+  <a href="#" onclick="showAboutProduct()">關於產品</a>
+  <a href="#">產地履歷</a>
+</div>
+
+<div class="content" id="mainContent">
+  <h2>主要內容</h2>
+  <p>这是主要内容，你可以在这里放你的内容。</p>
+</div>
+
+<div class="content" id="aboutProduct" style="display:none;">
+  <h3>關於產品</h3>
+  <p>这里是关于产品的内容。</p>
+  <button onclick="showMainContent()">返回主要內容</button>
+</div>
+
+<script>
+function showAboutProduct() {
+  var aboutProductDiv = document.getElementById("aboutProduct");
+  var mainContentDiv = document.getElementById("mainContent");
+  
+  aboutProductDiv.style.display = "block";
+  mainContentDiv.style.display = "none";
+}
+
+function showMainContent() {
+  var aboutProductDiv = document.getElementById("aboutProduct");
+  var mainContentDiv = document.getElementById("mainContent");
+  
+  aboutProductDiv.style.display = "none";
+  mainContentDiv.style.display = "block";
+}
+</script>
+
+</body>
+</html>
