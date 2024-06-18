@@ -10,8 +10,8 @@
 課程教材 | https://github.com/ccc112b/html2denojs <br/> https://www.w3schools.com/
 ----------
 # 作業整理
-## 作業一 
-### 使用chatgpt完成創作
+    -作業一 
+        -使用chatgpt完成創作
 ----------
 作業二 
 美化前是自創 透過chatgpt完成美化
