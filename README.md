@@ -13,7 +13,7 @@
 #### 小小的心得 
 這學期過得很快  
 在寫這篇總整理時才發現自己平時把檔案亂放  
-也沒花太多時間琢磨程式都靠ai完成作業，看到都是AI完成讓我發覺有點不太認真在課業上  
+也沒花太多時間琢磨程式都靠ai完成作業，看到都是AI完成讓我發覺真的是太混了  
 下學期要規劃好時間
 ### 作業一 
         把需要的欄目輸入chatgpt完成創作
@@ -41,14 +41,23 @@
 ---
 ### 作業六
 使用chatgpt完成
-* [使用 CSS](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06)
-* [使用js](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06/%E5%81%B4%E6%AC%842.html)
+* [使用 CSS網頁](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06)
+* [使用js網頁](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06/%E5%81%B4%E6%AC%842.html)
+* [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06)
 ---
 ### 作業七
-* []()
+
+* [雜湊網頁](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw07/%E9%9B%9C%E6%B9%8A%E8%91%89%E9%9D%A2.html)
+* [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw07)
 ---
 ### 作業八
-* []()
+* [網頁](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hww08/%E4%BD%9C%E6%A5%AD8%E7%B6%B2%E7%AB%99.html)
+* [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hww08)
 ---
 ### 作業九
+透過chatgpt協助完成 
+* [網站](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw09/%E7%B9%AA%E5%9C%96%E7%B6%B2%E7%AB%99.html)
+* [code]()
+---
+### 作業十
 * []()
