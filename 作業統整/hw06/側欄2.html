@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>側欄切換示例</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            transition: width 0.3s;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .sidebar .sidebar-content {
+            padding: 20px;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .sidebar.collapsed {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <h2>側欄內容</h2>
+            <p>這是側欄的內容。</p>
+        </div>
+    </div>
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sidebar = document.getElementById("sidebar");
+
+            sidebar.addEventListener("click", function() {
+                sidebar.classList.toggle("collapsed");
+            });
+        });
+    </script>
+</body>
+</html>
+

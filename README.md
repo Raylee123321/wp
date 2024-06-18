@@ -30,12 +30,20 @@
         第一第二題自創 其餘皆是複製同學的code修改
 * [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw04)
 ---
-        作業五
+### 作業五
+三題皆是使用chatgpt完成
+* [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw05)
 ---
-        作業六
+### 作業六
+使用chatgpt完成
+* [使用 CSS](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06)
+* [使用js](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw06/%E5%81%B4%E6%AC%842.html)
 ---
-        作業七
-----------
-        作業八
-----------
-        作業九
+### 作業七
+* []()
+---
+### 作業八
+* []()
+---
+### 作業九
+* []()
