@@ -10,7 +10,7 @@
 課程教材 | https://github.com/ccc112b/html2denojs <br/> https://www.w3schools.com/
 ----------
 # 作業整理
-    -作業一 
+    作業一 
         -使用chatgpt完成創作
 ----------
 作業二 
