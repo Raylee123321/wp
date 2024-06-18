@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Moving Button</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+        #moveButton {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <button id="moveButton">按鈕</button>
+
+    <script>
+        const button = document.getElementById('moveButton');
+        const speed = 2; // 每次移動的像素數
+        let directionX = Math.random() > 0.5 ? 1 : -1;
+        let directionY = Math.random() > 0.5 ? 1 : -1;
+
+        function moveButton() {
+            const buttonRect = button.getBoundingClientRect();
+            const containerRect = document.body.getBoundingClientRect();
+
+            // 檢查邊緣並反彈
+            if (buttonRect.right >= containerRect.right || buttonRect.left <= containerRect.left) {
+                directionX *= -1;
+            }
+            if (buttonRect.bottom >= containerRect.bottom || buttonRect.top <= containerRect.top) {
+                directionY *= -1;
+            }
+
+            // 更新按鈕的位置
+            button.style.left = button.offsetLeft + speed * directionX + 'px';
+            button.style.top = button.offsetTop + speed * directionY + 'px';
+        }
+
+        // 每 10 毫秒移動一次按鈕
+        setInterval(moveButton, 10);
+    </script>
+</body>
+</html>
