@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中翻英翻译器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>中翻英翻译器</h1>
+        <textarea id="chineseInput" placeholder="请输入中文..."></textarea>
+        <button onclick="translate()">翻译</button>
+        <textarea id="englishOutput" placeholder="英文翻译结果..." readonly></textarea>
+    </div>
+
+    <script>
+        async function translate() {
+            const chineseText = document.getElementById('chineseInput').value;
+            
+            // 调用假设的翻译API
+            const response = await fetch('https://api.example.com/translate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text: chineseText })
+            });
+
+            const data = await response.json();
+            const englishText = data.translation;
+
+            document.getElementById('englishOutput').value = englishText;
+        }
+    </script>
+</body>
+</html>
