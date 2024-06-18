@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊申請</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            margin: 0 auto;
+            padding: 20px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>註冊申請</h1>
+<form>
+    <table> 
+        <tr>
+            <td>姓名</td>
+            <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+            <td>帳號</td>
+            <td><input type="text" id="account" name="account"></td>
+        </tr>
+        <tr>
+            <td>密碼</td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>性別</td>
+            <td>
+                <label>
+                    <input type="radio" id="male" name="gender" value="male">男
+                </label>
+                <label>
+                    <input type="radio" id="female" name="gender" value="female">女
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>生日</td>
+            <td><input type="date" id="date" name="date"></td>
+        </tr>
+        <tr>
+            <td>喜歡的顏色</td>
+            <td><input type="color" id="color" name="color"></td>
+        </tr>
+        <tr>
+            <td>血型</td>
+            <td>
+                <label>
+                    <input type="radio" id="A" name="blood_type" value="A">A
+                </label>
+                <label>
+                    <input type="radio" id="B" name="blood_type" value="B">B
+                </label>
+                <label>
+                    <input type="radio" id="O" name="blood_type" value="O">O
+                </label>
+                <label>
+                    <input type="radio" id="AB" name="blood_type" value="AB">AB
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>電話</td>
+            <td><input type="tel" id="phonenumber" name="phonenumber" placeholder="09-12345678"></td>
+        </tr>
+        <tr>
+            <td>訂閱</td>
+            <td>
+                <label>
+                    <input type="radio" id="sub" name="subscription" value="yes">是
+                </label>
+                <label>
+                    <input type="radio" id="unsub" name="subscription" value="no">否
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>附件</td>
+            <td><input type="file" id="file" name="file"></td>
+        </tr>
+        <tr>
+            <td>自我介紹</td>
+            <td><textarea id="story" name="story" rows="5" cols="33"></textarea></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
