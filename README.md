@@ -21,17 +21,19 @@
 * [美化後](http://127.0.0.1:5500/wp/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw02/%E7%BE%8E%E5%8C%96%E9%81%8E.html)
 * [美化前的code](https://github.com/Raylee123321/wp/blob/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw02/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE.html)
 * [美化後的code](https://github.com/Raylee123321/wp/blob/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw02/%E7%BE%8E%E5%8C%96%E9%81%8E.html)
-----------
+---
 ### 作業三
-        js的練習 有參考同學的code 看不懂的地方有上網找資料與問chatgpt
+        js的練習 皆有參考同學的code後進行修改 看不懂的地方有上網找資料與問chatgpt
 * [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw03)
-----------
-        作業四
-----------
+---
+### 作業四 
+        第一第二題自創 其餘皆是複製同學的code修改
+* [code](https://github.com/Raylee123321/wp/tree/master/%E4%BD%9C%E6%A5%AD%E7%B5%B1%E6%95%B4/hw04)
+---
         作業五
-----------
+---
         作業六
-----------
+---
         作業七
 ----------
         作業八
